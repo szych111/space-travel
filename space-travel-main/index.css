@@ -3,13 +3,13 @@
     background-repeat: no-repeat;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 55em) {
     .home {
         background-image: url(./assets/home/background-home-tablet.jpg);
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 65em) {
     .home {
         background-image: url(./assets/home/background-home-desktop.jpg);
     }
