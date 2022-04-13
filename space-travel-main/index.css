@@ -1,15 +1,15 @@
 .home {
     background-image: url(./assets/home/background-home-mobile.jpg);
-    background-repeat: no-repeat;
 }
 
-@media (min-width: 55em) {
+@media (min-width: 35em) {
     .home {
         background-image: url(./assets/home/background-home-tablet.jpg);
+        background-position: center center;
     }
 }
 
-@media (min-width: 65em) {
+@media (min-width: 45em) {
     .home {
         background-image: url(./assets/home/background-home-desktop.jpg);
     }
