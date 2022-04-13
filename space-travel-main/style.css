@@ -36,7 +36,7 @@
   }
 }
 
-@media (min-width: 35em) {
+@media (min-width: 45em) {
   :root {
     --fs-800: 6.25rem;
     --fs-700: 3.5rem;
@@ -78,15 +78,17 @@ html:focus-within {
 }
 
 body {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  background-size: cover;
+  background-position: bottom center;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   font-family: var(--ff-sans-normal);
   font-size: var(--fs-400);
-  background-color: rgb(var(--clr-dark));
   color: rgb(var(--clr-white));
   line-height: 1.5;
-  display: grid;
-  grid-template-rows: min-content 1fr;
+  
 }
 
 a:not([class]) {
@@ -153,7 +155,6 @@ select {
   display: grid;
   place-items: center;
   text-align: center;
-  border: 5px solid red;
   padding-inline: 1rem;
 }
 
